@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Portal</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <header class="header ">
+    <div class="container ">
+      <h3>Student Portal</h3>
+    </div>
+  </header>
+
+
+  <button  style="position: absolute; left: 2px; top: 0.0em; z-index: 1100;" class="btn btn-light mt-3 ml-3" id="sidebarToggle"><i class="fas fa-bars"></i></button>
+
+  
+
+  <div class="sidebar " id="sidebar">
+    <div class="sidebar-header ">
+      <h3></h3>
+      <!-- <i class="fas fa-times close-btn" id="sidebarClose"></i> -->
+      
+    </div>
+    <ul>
+      <li class="" style="margin-top: 50px;"><a href="#">Personal</a></li>
+      <li class=""><a href="..\attendance\attendace.html">Attendance</a></li>
+      <li class="">
+        <a href="#" class="exam-option">Exam <i class="fas fa-chevron-down"></i></a>
+        <ul class="sub-options">
+          <li class=""><a href="#">Result</a></li>
+          <li class=""><a href="#">Old Exam Papers</a></li>
+        </ul>
+      </li>
+      <li><a href="..\LMS\lms.html">LMS</a></li>
+      <li><a href="..\fees\fees.html">Fee</a></li>
+      <li><a href="#">Feedback</a></li>
+    </ul>
+  </div>
+  
+
+  
+    <div class="card mt-3 " style="">
+      <div  class="card-header bg-secondary">
+        Personal Information
+      </div>
+      <div class="card-body">
+        <div class="text-center">
+          <img src="profile.png" alt="Profile Image" class="img-fluid rounded-circle" style="width: 150px;">
+        </div>
+        <h4 class="card-title text-center mt-3" style="color: #007bff;">Burhanuddin Mundrawala</h4>
+        <p class="text-center">Branch: Computer Science</p>
+        <p class="text-center">Batch: 2022</p>
+        <p class="text-center">Student Contact: +91 7038032258535</p>
+        <p class="text-center">Email: adsf@gmail.com</p>
+      </div>
+    </div>
+    <div class="notification-panel">
+      <div style="text-align: center;" class="notification-header">
+        <h3 >Notifications</h3>
+      </div>
+      <div  class="notification-body">
+        <p style="text-align: center;">No new notifications</p>
+      </div>
+    </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Student Portal. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS (optional) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Font Awesome -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
